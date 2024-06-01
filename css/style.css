@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.mypro{
+    font-family: "Poetsen One", sans-serif;
+    color: rgb(237, 222, 222);
+}
+
+.card-text{
+    font-family: "Permanent Marker", cursive;
+}
+
+.me{font-family: "Alfa Slab One", serif; color: burlywood;}
+
+body {
+
+    
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+#about img {
+    max-width: 100%;
+}
+.card {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.bg-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    top: 10px;
+  
+}
+
+@media (min-aspect-ratio 16/9){
+    .bg-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio 16/9){
+    .bg-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.abme{
+    color: rgb(237, 222, 222);
+    font-family: "Poetsen One", sans-serif;
+}
+.cdttl{
+    color: brown;
+    font-family: "Poetsen One", sans-serif;
+}
+.ct{
+    color: rgb(106, 76, 0);
+}
+.lbl label{
+    color: rgb(255, 255, 255);
+}
+.lbl input::placeholder{
+    color: rgb(115, 3, 93);
+}
+.txt textarea::placeholder{
+    color: rgb(115, 3, 93);
+}
